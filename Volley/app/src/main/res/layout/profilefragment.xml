@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/pro_btn"
+        android:onClick="clickeditbtn"
+        android:layout_gravity="end"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="180dp" />
+
+
+
+    <TextView
+        android:id="@+id/pro_tv1"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="UserName:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+     <TextView
+         android:id="@+id/pro_tv2"
+         android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="E-mail:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pro_tv3"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Mobile number:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>

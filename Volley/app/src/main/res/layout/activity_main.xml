@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+  <!--  <EditText
+        android:textSize="20sp"
+        android:id="@+id/mnusrnm"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+ <!-- <LinearLayout
+      android:orientation="vertical"
+      android:layout_weight="0.30"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">-->
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:src="@drawable/eventz"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="100dp" />
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <EditText
+        android:drawableLeft="@drawable/mobilenum"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/mnmobile"
+        android:fontFamily="serif"
+        android:hint="mobile Number"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+  <EditText
+        android:drawableLeft="@drawable/pswd"
+        android:drawablePadding="10dp"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:id="@+id/mnusrpswd"
+      android:fontFamily="serif"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:background="#306d9f"
+        android:onClick="clickloginbtn"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:text="Login"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="340dp"
+        android:layout_height="50dp"/>
+        <!--tools:ignore="OnClick"-->
+        </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <TextView
+          android:onClick="clickfogotbtn"
+          android:layout_marginLeft="18dp"
+          android:layout_marginTop="20dp"
+          android:layout_gravity="end"
+          android:textSize="19dp"
+          android:text="Forgot Password?"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+
+  <TextView
+      android:onClick="clickregisterbtn"
+      android:layout_marginLeft="90dp"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="end"
+      android:textSize="19dp"
+      android:text="Register Now!"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:src="@drawable/eventz"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+  </LinearLayout>
+  </ScrollView>
+
+
+</LinearLayout>

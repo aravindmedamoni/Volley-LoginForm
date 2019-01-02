@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "348584445954",
+    "firebase_url": "https://volley-7b853.firebaseio.com",
+    "project_id": "volley-7b853",
+    "storage_bucket": "volley-7b853.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348584445954:android:9efb2336c7c80d4b",
+        "android_client_info": {
+          "package_name": "com.example.medamoniaravind.volley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348584445954-umi0nkpfkek616jj5l8g9pf99oif3qn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medamoniaravind.volley",
+            "certificate_hash": "bdd955e0f71f9cf5155701949bf5e314fb47d17f"
+          }
+        },
+        {
+          "client_id": "348584445954-03g9l8de6lpoangtjsg6amk9l033gvmd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "348584445954-03g9l8de6lpoangtjsg6amk9l033gvmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbW3LjectuI7FPejNc8C0_HTQVMktI60U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348584445954-03g9l8de6lpoangtjsg6amk9l033gvmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
